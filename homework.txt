@@ -1,0 +1,32 @@
+1.
+The code will print multiple of 13s starting from 0: 0,13,26,39,...The code will go on until 200, but 200 is not divisible by 13, so 195 will be the last output because its the last value less than 200 that's divisible by 13.
+It will have 461 lines of code that will execute when this code is run.
+2.
+for i in range(3):
+    for j in range(10):
+        for k in range(10):
+            if not (k+10*j+100*i) % 17:
+                print(k+10*j+100*i)
+
+3.
+The output will be an infinte amount of 0s because the value of c is never actually changing.
+
+4.
+
+13
+12
+11
+10
+9
+
+This is the output of the code, as you can see it just prints 13 down to 8, but since the starting value of a data set is labeled as 0, the 8th value was 9.
+
+5.
+x=1
+y=10
+while x!=y:
+    x=x+1
+    y=y-1
+print(x)
+print(y)
+print("x=y")
